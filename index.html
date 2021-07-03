@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Radyo
+	</title>
+		<link rel="icon" href="RadyoAvatarIcon.jpg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fa fa-bars"></i>
+		</label>
+		<label class="imglogo"><img src="media/RadyoAvatar.jpg" class="imgclasslogo"></label>
+		<label class="logo">Radyo</label>
+		<ul>
+
+			<li><a href="index.html" class="active">Home</a></li>
+			<li><a href="commands.html">Commands</a></li>
+			<li class="invite"><a href="https://discord.com/api/oauth2/authorize?client_id=855840993937326081&permissions=2214068032&scope=bot" target="_blank" class="inv">Add to Discord</a></li>
+			<li><p>Developed by QuaintDfzl#9999</p></li>
+		</ul>
+	</nav>
+
+</header>
+<section id="first">
+		<img src="media/bot.png" style="width:200px; border-radius: 10px;">
+	<p class="mhdesc">Radyo Discord Bot (Beta v1.0)</p>
+	<p class="hdesc">Listen to Philippine Radio Stations with your friends on Discord Servers.</p>
+	<p class="bhdesc"><br>Radyo allows you to listen to your favorite Philippine Radio Stations online via a discord server's voice channel.</p>
+	<a href="https://discord.com/api/oauth2/authorize?client_id=855840993937326081&permissions=2214068032&scope=bot" target="_blank" class="inv">Add Radyo to Discord</a>
+	<a href="commands.html" class="inv">View Radyo Commands</a>
+</section>
+<footer>
+	<p>Developed by QuaintDfzl#9999</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+<script>
+	$('#check').change(function() {
+  if ($('#check').is(":checked")) {
+    $('body').css('overflow','hidden');
+  } else {
+    $('body').css('overflow','auto');
+  }
+});
+</script>
+</body>
+</html>	

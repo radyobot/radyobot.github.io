@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Radyo
+	</title>
+		<link rel="icon" href="RadyoAvatarIcon.jpg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fa fa-bars"></i>
+		</label>
+		<label class="imglogo"><img src="media/RadyoAvatar.jpg" class="imgclasslogo"></label>
+		<label class="logo">Radyo</label>
+		<ul>
+
+			<li><a href="index.html">Home</a></li>
+			<li><a href="commands.html" class="active">Commands</a></li>
+			<li class="invite"><a href="https://discord.com/api/oauth2/authorize?client_id=855840993937326081&permissions=2214068032&scope=bot" target="_blank" class="inv">Add to Discord</a></li>
+			<li><p>Developed by QuaintDfzl#9999</p></li>
+		</ul>
+	</nav>
+
+</header>
+<section id="com">
+	<p class="mhdesc">Commands</p>
+	<p class="bhdesc">Tap/Click the a command to view more info.</p>
+	<div class="container">
+	<div class="accordion">
+		<div>
+			<input type="radio" name="btn" id="command1" class="accordion__input">
+			<label for="command1" class="accordion__label">+tunein [fm] || [am]</label>
+				<div class="accordion__content">
+						<p>In order for Radyo to function, this is the first command that you should type.</p><br>
+						<p>How to use: </p>
+						<p>type +tunein 90.7</p>
+						<p>The radyo bot will join the voice channel and play the 90.7FM station.</p>
+				</div>
+		</div>
+		<div>
+			<input type="radio" name="btn" id="command2" class="accordion__input">
+			<label for="command2" class="accordion__label">+list</label>
+							<div class="accordion__content">
+						<p>If you want to view the available stations and their fm/am just type this command.</p><br>
+						<p>How to use: </p>
+						<p>type +list</p>
+						<p>The radyo bot will provide the list of stations with their fm and am in the text channel.</p>
+				</div>
+			
+		</div>
+		<div>
+			<input type="radio" name="btn" id="command3" class="accordion__input">
+			<label for="command3" class="accordion__label">+pause || +play</label>
+							<div class="accordion__content">
+						<p>You can only use +pause command when Radyo is played via +tunein command. This will stop the radio.</p>
+						<p>You can only use +play command when Radyo is paused via +pause command. This will resume the radio.</p>
+				</div>
+		</div>
+		<div>
+			<input type="radio" name="btn" id="command4" class="accordion__input">
+			<label for="command4" class="accordion__label">+leave</label>
+							<div class="accordion__content">
+						<p>Use this command when you are finished using the Radyo bot. The bot will leave the voice channel.</p>
+				</div>
+		</div>
+				<div>
+			<input type="radio" name="btn" id="command5" class="accordion__input">
+			<label for="command5" class="accordion__label">+help</label>
+							<div class="accordion__content">
+						<p>This command will send the basic commands and instructions in the text channel.</p>
+				</div>
+		</div>
+
+	</div>
+	</div>
+
+</section>
+<br>
+<footer>
+	<p>Developed by QuaintDfzl#9999</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+<script>
+	$('#check').change(function() {
+  if ($('#check').is(":checked")) {
+    $('body').css('overflow','hidden');
+  } else {
+    $('body').css('overflow','auto');
+  }
+});
+</script>
+</body>
+</html>	
