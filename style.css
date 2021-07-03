@@ -12,6 +12,8 @@ html{
 	min-height:100%;
 }
 body{
+	margin: 0 !important;
+    padding: 0 !important;
 	background-color: #C9FEF4;
 	font-family: 'Inconsolata', monospace;
 	font-weight: bolder;
@@ -19,6 +21,7 @@ body{
     position:relative;
     background-repeat: no-repeat;
 	padding-bottom:50px;
+	
 }
 
 nav{
